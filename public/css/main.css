@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --primary-color: #27a7ff;
+    --second-color: #fd5535;
+    --third-color: #5aecb6;
+}
+
+body {
+    background-color: #FCFCFC;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 53px;
+    margin: 0px 0 16px 0;
+    color: #1D2129;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 60px 0 24px 0;
+    color: #1D2129;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    color: #90949C;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #4B4F56;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all .3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+#card-view {
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    z-index: 9999;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    background-image: url(http://facebook.design/public/images/logo-fb.svg);
+    background-size: 35px 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #90949C;
+    float: left;
+    padding: 0 0 0 42px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.primary-menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.primary-menu li a {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px 32px 0 0;
+    color: #90949C;
+    -webkit-user-select: none;
+    transition: all .3s;
+}
+
+.primary-menu li a:hover,
+.primary-menu li a:focus {
+    color: rgb(90, 92, 95);
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+#footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.social-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-list a {
+    background: #eee;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 16px;
+    transition: all .3s;
+}
+
+.social-list a:hover {
+    color: #fff;
+    background: #999;
+}
